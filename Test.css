@@ -1,0 +1,76 @@
+body {
+  background-color: #343a50;
+}
+
+label {
+  color: rgb(255, 254, 176);
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1000px;
+  background-color: #343a50;
+}
+
+/*  inputContainer  */
+.parentInput {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.inputContainer {
+  width: 40%;
+}
+
+.form-control {
+  margin-bottom: 3px;
+}
+
+.btn-info {
+  margin-top: 8px;
+}
+
+/*  cardContainer  */
+
+.cardContainer {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+
+.card {
+  width: 31%;
+  margin: 10px;
+}
+
+.cancelText {
+  color: red;
+  font-size: 14px;
+}
+
+@media (max-width: 940px) {
+  .card {
+    width: 47%;
+  }
+}
+
+@media (max-width: 750px) {
+  .inputContainer {
+    width: 70%;
+    margin: 0 20px;
+  }
+  .card {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 525px) {
+  .inputContainer {
+    width: 90%;
+  }
+}
